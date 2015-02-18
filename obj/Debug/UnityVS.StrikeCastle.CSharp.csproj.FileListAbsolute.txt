@@ -1,0 +1,11 @@
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEditor.dll
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEngine.dll
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEngine.xml
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEditor.xml
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\obj\Debug\UnityVS.StrikeCastle.CSharp.csprojResolveAssemblyReference.cache
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\obj\Debug\Assembly-CSharp.dll
+G:\Game Development\JoelKasr\StrikeCastle\Developement\StrikeCastle\obj\Debug\Assembly-CSharp.pdb

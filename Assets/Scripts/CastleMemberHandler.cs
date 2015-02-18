@@ -18,16 +18,19 @@ public class CastleMemberHandler : MonoBehaviour {
         }
         else if(!active && timer >= 1f){
             active = true;
+            timer = 0f;
         }
     }
 	
 	// Update is called once per frame
     void OnCollisionEnter2D(Collision2D other) {
-        if ((other.gameObject.tag == "RockReleased" || other.gameObject.tag == "Castle" 
-            || other.gameObject.tag == "CastleMember") && active)
+        if ((other.gameObject.tag == "RockReleased" || other.gameObject.tag == "Castle" || other.gameObject.tag == "CastleMember") && active)
         {
-            rigidbody2D.isKinematic = false;
-            scoreManager.killCount++;
+            if (active) {
+                scoreManager.killCount++;
+                active = false;
+                this.gameObject.GetComponent<CastleMemberHandler>().enabled = false;
+            }
         }
     }
 }

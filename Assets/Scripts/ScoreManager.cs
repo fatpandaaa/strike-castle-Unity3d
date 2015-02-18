@@ -7,6 +7,10 @@ public class ScoreManager : MonoBehaviour {
     public int killCount = 0;
     public int totalKill = 0;
 
+    public Sprite goldImage;
+    public Sprite silverImage;
+    public Sprite bronzeImage;
+
     private SceneManager sceneManager;
     private Text shotsText;
     private Text goldText;
@@ -55,6 +59,15 @@ public class ScoreManager : MonoBehaviour {
             }
             else {
                 sceneManager.isPause = true;
+                /*
+                if(shotCount <= gold)
+                    GameObject.Find("Medal").GetComponent<Image>().sprite = goldImage;
+                else if(shotCount <= silver)
+                    GameObject.Find("Medal").GetComponent<Image>().sprite = silverImage;
+                else if(shotCount <= bronze)
+                    GameObject.Find("Medal").GetComponent<Image>().sprite = bronzeImage;
+                */
+                GameObject.Find("WinText").GetComponent<Text>().text = "Castle Crushed\nin " + shotCount.ToString() + " shot";
                 winGameOverAnim.SetBool("fade", false);
             }
         }
